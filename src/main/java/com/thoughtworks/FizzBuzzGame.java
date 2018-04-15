@@ -13,7 +13,9 @@ public class FizzBuzzGame {
 
     public void start(int count) {
         for (int i = 1; i <= count; i++) {
-            System.out.println(processNumberToString(i));
+            String processNumber = processNumberToString(i);
+            System.out.println(processNumber);
+            results.add(processNumber);
         }
 
     }
